@@ -7,7 +7,7 @@ export const Home = () => {
                 DRAGON CALC
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mb-12 leading-relaxed">
-                Experience the power of calculation forged in the depths of the obsidian lair. Precision meets mythical aesthetics.
+                Experimente o poder do cálculo forjado nas profundezas do covil de obsidiana. Precisão encontra estética mítica.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6">
@@ -15,13 +15,13 @@ export const Home = () => {
                     to="/calculator"
                     className="px-8 py-4 bg-gradient-to-r from-red-600 to-orange-600 rounded-lg text-white font-bold tracking-widest uppercase hover:brightness-110 transition-all shadow-[0_0_20px_rgba(255,69,0,0.5)] active:scale-95"
                 >
-                    Enter the Lair
+                    Entrar no Covil
                 </Link>
                 <Link
                     to="/about"
                     className="px-8 py-4 bg-transparent border border-gray-600 rounded-lg text-gray-300 font-bold tracking-widest uppercase hover:bg-white/5 transition-all active:scale-95"
                 >
-                    Project Lore
+                    História do Projeto
                 </Link>
             </div>
         </div>

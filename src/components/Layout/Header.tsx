@@ -14,17 +14,17 @@ export const Header = () => {
                         <ul className="flex space-x-8">
                             <li>
                                 <Link to="/" className="text-gray-300 hover:text-white hover:text-shadow-red transition-colors text-sm font-medium tracking-wider uppercase">
-                                    Home
+                                    Início
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/calculator" className="text-gray-300 hover:text-white hover:text-shadow-red transition-colors text-sm font-medium tracking-wider uppercase">
-                                    Calculator
+                                    Calculadora
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/about" className="text-gray-300 hover:text-white hover:text-shadow-red transition-colors text-sm font-medium tracking-wider uppercase">
-                                    About
+                                    Sobre
                                 </Link>
                             </li>
                         </ul>
